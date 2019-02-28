@@ -1,0 +1,13 @@
+{
+    "short_name" : "JMWD",
+    "name" : "James McKay Web Design",
+    "icons": [
+        {
+          "src": "images/logo_black_512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+    ],
+    "display" : "fullscreen",
+    "theme_color": "#7AC9CE"
+}
