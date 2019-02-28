@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(
+        to right,
+        #2A9096 0%,
+        #2A9096 50%,
+        #5AB9C0 50%,
+        #5AB9C0 100%
+    );
+}
+
+.content-home{
+    position: fixed;
+    display: block;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #7AC9CE;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.logo{
+    height: 300px;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.name{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    display: block;
+
+    background-color: #7AC9CE;
+    color: #000;
+    box-shadow: 2px 2px 3px grey;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-linkedin{
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    font-size: 50px;
+}
+.fa-twitter-square{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo{
+        height: 200px;
+    }
+    .name{
+        font-size: 40px;
+    }
+  }
+  @media only screen and (max-width: 610px) {
+    .name{
+        display: none;
+    }
+    .content-home{
+        width: 100%;
+    }
+    .logo{
+        height: 100px;
+    }
+    .fa-linkedin{
+        bottom: 20%;
+        left: 25%;
+    }
+    .fa-twitter-square{
+        bottom: 20%;
+        right: 25%;
+    }
+  }
